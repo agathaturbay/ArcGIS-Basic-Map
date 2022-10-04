@@ -1,0 +1,30 @@
+html,
+body,
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#searchWidget {
+    width: 300px;
+    position: fixed;
+    margin: 0 0 0 50px;
+}
+
+#directionsWidget {
+    height: 550px;
+    border-radius: 10px;
+}
+
+.esri-directions__section {
+    margin: 0;
+}
+
+.esri-search__input, .esri-select {
+    outline: 0;
+    font-size: 1em;
+    font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #949494;
+}
